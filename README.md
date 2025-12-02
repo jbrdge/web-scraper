@@ -26,9 +26,6 @@ The goal here was to practice scraping a data table from a website:
 Then, we convert the table in to a pandas DataFrame:
 <p><img src="https://raw.githubusercontent.com/jbrdge/web-scraper/main/img/pandas_dataframe.png" width="90%"></p>  
 
-First, the data is loaded and transformed to a single string:  
-<p><img src="https://raw.githubusercontent.com/jbrdge/web-scraper/main/img/mlk_speech_to_string.png" width="90%"></p>  
-
 Most of the heavy lifting was done here in the code. It finds each row (excluding the header), then creates a list of each column for that row. And finally, appends that to a previously created DataFrame that existed only of the header at this point:
-<p><img src="https://raw.githubusercontent.com/jbrdge/web-scraper/main/img/mlk_speech_wordcount.png" width="90%"></p>  
+<p><img src="https://raw.githubusercontent.com/jbrdge/web-scraper/main/img/data_parse_01.png" width="90%"></p>  
 
